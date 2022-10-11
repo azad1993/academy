@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Inter&family=Lato&family=Montserrat&family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 91px 150px 173px 124px;
+}
+
+.maintext {
+  display: flex;
+  gap: 190px;
+}
+
+h1 {
+  position: relative;
+  font-weight: 700;
+  font-size: 55px;
+  bottom: 18px;
+}
+
+.text {
+  width: 662px;
+  height: 374px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.myPhoto {
+  display: flex;
+  align-items: center;
+}
+
+.photo {
+  position: relative;
+  width: 314px;
+  height: 315px;
+  /*top: 135px;*/
+  z-index: 1;
+}
+
+.ellipse {
+  position: absolute;
+  top: 470px;
+  right: 124px;
+}
+
+.footers {
+  display: flex;
+  margin-top: 94px;
+  justify-content: flex-start;
+  gap: 132px;
+}
+
+.siting {
+  position: relative;
+}
+
+.sitingel {
+  position: absolute;
+  left: 157px;
+  bottom: 202px;
+  z-index: -1;
+}
+
+.flittle {
+  width: 150px;
+}
+.secondp {
+  font-size: 18px;
+}
+.firstp {
+  font-size: 25px;
+  font-weight: 700;
+}
+.fimg {
+  margin: 0;
+  padding: 0;
+}
+.ftext {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 95px;
+  margin: 0;
+  padding: 0;
+}
