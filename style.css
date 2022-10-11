@@ -15,6 +15,7 @@
 .maintext {
   display: flex;
   gap: 190px;
+  margin-bottom: 94px;
 }
 
 h1 {
@@ -49,13 +50,13 @@ h1 {
 
 .ellipse {
   position: absolute;
-  top: 470px;
-  right: 124px;
+  right: 120px;
+top: 470px;
 }
 
 .footers {
   display: flex;
-  margin-top: 94px;
+  
   justify-content: flex-start;
   gap: 132px;
 }
@@ -67,12 +68,15 @@ h1 {
 .sitingel {
   position: absolute;
   left: 157px;
-  bottom: 202px;
+  bottom: 22%;
   z-index: -1;
 }
 
 .flittle {
   width: 150px;
+}
+.flittle2{
+    width: 150px;
 }
 .secondp {
   font-size: 18px;
@@ -89,7 +93,192 @@ h1 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+ 
+  flex-wrap: wrap;
   gap: 95px;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 375px) and (max-width: 834px) {
+  .wrapper {
+    margin: 56px 86.69px 180.05px 72px;
+  }
+  .maintext {
+    display: flex;
+    gap: 110.04px;
+  }
+
+  h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    bottom: 10.42px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 10px;
+    width: 383.41px;
+    height: 216.61px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    
+  }
+
+  .myPhoto {
+    display: flex;
+    align-items: center;
+  }
+
+  .photo {
+    position: relative;
+    width: 181.86px;
+    height: 182.44px;
+    /*top: 135px;*/
+    z-index: 1;
+  }
+
+  .ellipse {
+    position: absolute;
+    width: 211.98px;
+    height: 34.17px;
+    top: 277px;
+    right: 71.63px;
+  }
+
+  .footers {
+    display: flex;
+    margin-top: 70.01px;
+    justify-content: flex-start;
+    gap: 55.02px;
+  }
+
+  .flittle {
+    width: 86.88px;
+  }
+  .flittle2 {
+    width: 108px;
+  }
+  .secondp {
+    font-size: 11px;
+  }
+  .firstp {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .fimg {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .ftext {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 55.02px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 375px) {
+   
+    
+  .wrapper {
+    margin: 56px 30.53px 124px 36px;
+  }
+  .maintext {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    margin-right: 20%;
+  }
+
+  h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 26px;
+    bottom: 8.39px;
+  }
+
+  .text {
+    width: 308.47px;
+    height: 174.27px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .myPhoto {
+    display: flex;
+    align-items: center;
+  }
+
+  .photo {
+    position: relative;
+    width: 146.32px;
+    height: 146.78px;
+    /*top: 135px;*/
+    top: 20px;
+    z-index: 1;
+  }
+
+  .ellipse {
+    position: absolute;
+    width: 170.55px;
+    height: 27.49px;
+    left: 50px;
+    top: 470.8px;
+    right: 50px;
+  }
+
+  .footers {
+        display: flex;
+        
+        margin-top: 59.22px;
+        justify-content: flex-start;
+        align-content: flex-start;
+        /*gap: 55.02px;*/
+        
+      }
+      .ftext {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction:row;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        gap: 36.61px;
+        margin-top: 59.22px;
+        margin: 0;
+        padding: 0;
+      }
+  .flittle {
+    width: 86px;
+    margin: 0;
+  }
+  .flittle2 {
+    width: 86.89px;
+    margin: 0;
+  }
+  .secondp {
+    font-size: 10px;
+  }
+  .firstp {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .fimg {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
 }
