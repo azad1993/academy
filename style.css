@@ -100,7 +100,7 @@ top: 470px;
   padding: 0;
 }
 
-@media (min-width: 375px) and (max-width: 834px) {
+@media (min-width: 376px) and (max-width: 834px) {
   .wrapper {
     margin: 56px 86.69px 180.05px 72px;
   }
@@ -148,7 +148,7 @@ top: 470px;
     position: absolute;
     width: 211.98px;
     height: 34.17px;
-    top: 277px;
+    top: 282px;
     right: 71.63px;
   }
 
@@ -235,8 +235,8 @@ top: 470px;
     position: absolute;
     width: 170.55px;
     height: 27.49px;
-    left: 50px;
-    top: 470.8px;
+    left: 5px;
+    top: 475px;
     right: 50px;
   }
 
