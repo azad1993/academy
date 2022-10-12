@@ -51,7 +51,7 @@ h1 {
 .ellipse {
   position: absolute;
   right: 120px;
-top: 470px;
+top: 857px;
 }
 
 .footers {
@@ -239,7 +239,7 @@ top: 470px;
     top: 475px;
     right: 50px;
   }
-
+  
   .footers {
         display: flex;
         
